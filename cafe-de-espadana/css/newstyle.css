@@ -1,0 +1,230 @@
+/* global */
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family:"Market Deco";
+    src:url("marketdeco.ttf");
+}
+
+@font-face{
+    font-family:"Playfair Display";
+    src:url("playfair.ttf");
+}
+
+@font-face{
+    font-family:"Bebas Neue";
+    src:url("BebasNeue.otf");
+}
+
+@font-face{
+    font-family:"Heubeul Vintage";
+    src:url("Heubeul.otf");
+}
+
+
+@font-face{
+    font-family:"Pacifico";
+    src:url("Pacifico.ttf");
+}
+
+@font-face{
+    font-family:"Moon Flower";
+    src:url("MoonFlower.ttf");
+}
+
+ li{
+        list-style-type: none;
+        
+    }
+    a{
+        text-decoration: none;
+    }
+#reviews_{
+     font-size:15px;
+     font-weight: normal;
+    font-family: "Playfair Display";
+       padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+     padding-right: 0px;
+}
+
+p{
+    font-family: "Moon Flower";
+    font-weight: bolder;
+    font-size:28px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+     padding-right: 40px;
+}
+body{
+   background: url(images/bricks.jpg)fixed center;
+    background-size: contain;
+    width: 100%;
+    
+}
+.wrapper{
+   
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 1000px;
+}
+h1,h2{
+    text-align: center;
+    font-family: "Market Deco";
+}
+h1{
+   
+}
+.descriptions h2{
+    font-family: "Market Deco";
+}
+.banner{
+    background: url(images/main-banner.jpg)center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+.banner_tag{
+    color: ghostwhite;
+    font-family: "Pacifico";
+    font-size: 100px;
+    position: relative;
+    top: 155px;
+}
+.enye{
+    font-family:"Bebas Neue";
+    font-size:110px
+}
+
+.contents{
+     background-color: ghostwhite;
+       
+}
+.contents h1{
+    text-align: center;
+    font-family: "Market Deco";
+}
+.descriptions{
+    padding: 40px;
+}
+
+.people{
+     border-radius:200px 200px;
+        border:2px solid black;
+        min-width: 150px;
+         min-height: 150px;
+         max-width: 150px;
+         max-height: 150px;
+}
+.coffees{
+      
+        border-radius:300px 300px;
+        border:2px solid black;
+        min-width: 200px;
+         min-height: 200px;
+         max-width: 200px;
+         max-height: 200px;
+}
+.desserts{
+       width: 100%;
+         min-height: 300px;
+       
+         max-height: 300px;
+}
+.names{
+    font-family:"Heubeul Vintage";
+    font-size: 25px;
+}
+.row{
+    padding: 0px;
+}
+#coffee_section .row{
+       margin-top: 105px;
+   
+}
+.footer{
+    height: 200px;   
+    margin-bottom: 100px;
+    background: #f44336;
+}
+
+.footer .tagline{
+    font-family: "Bebas Neue";
+    font-size: 25px;
+   
+    padding: 15px;
+    padding-bottom: 5px;    
+    padding-left: 0px;
+    text-align: left;
+    
+}
+footer p{
+     margin-top: 15px;
+     font-size: 15px;
+    text-align: left;
+    
+}
+
+#coffee_section{
+    text-align: center;
+}
+#dessert_section .col-md-3{
+    margin-left: 0px;
+}
+#dessert_section .row{
+     margin-top: 105px;
+}
+#left{
+   float:left;
+    background-color:#7ad7b1;
+    left: 15px;
+    padding: 30px;
+}
+#right{
+    float:right;
+    background-color:#7ad7b1;
+    right: 15px;
+     padding: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+ 
+
+  
+}
+
+@media screen and (max-width:360px) {
+ 
+    .banner{
+        height: 200px;
+    }
+    .banner_tag{
+         font-size: 50px;
+        top: 45px;
+    }
+        .enye{
+    font-size:45px
+}
+    
+}
+
+/*
+
+
+
+
+
+
+*/

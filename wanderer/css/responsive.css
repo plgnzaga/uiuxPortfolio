@@ -1,0 +1,156 @@
+
+@media screen and (max-width: 414px) {
+    #navi ul li {
+        margin-left: 0px;
+    }
+#navi ul li a{
+    padding: 17px;
+}
+    
+    .banner{
+        height:350px;
+    }
+    #banner_tag{
+        font-size: 80px;
+        top:100px;
+    }
+    #banner_tag_support{
+        font-size: 18px;
+        top:80px;
+    }
+    .first_div{
+        padding-top: 0px;
+    }
+    
+    h1{
+        font-size: 25px;
+    }
+       h2{
+        font-size: 20px;
+    }
+   
+    .circ{
+    
+    margin-top: 50px;
+    margin-bottom: 10px;
+    height: 80px;
+    width: 80px;
+    padding-top: 16px;
+   
+}
+    #compass,#globe{
+        font-size:40px;
+    }
+    #about,#explore{
+        line-height: 1.5;
+    }
+    img{
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 200px;
+          max-height: 200px;
+   
+        
+    }
+    .sub-img{
+    margin-bottom: 0px;
+}
+    #s1{
+        padding-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    #s2{
+        padding-left: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+          padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .txt{
+        font-size: 15px;
+    }
+    #booking,#hotels{
+        width:86%;
+        float: left;
+        margin-left:7%;
+    }
+    .tagname{
+        width:104.5%;
+    }
+    #parallax1 input{
+        width:339px;
+        padding-right: 5px;
+    }
+    
+}
+
+@media screen and (max-width:375px) {
+    #navi{
+        min-height: 30px;
+        
+    }
+    #navi{
+           
+            margin: 0px;
+        padding: 0px;
+    }
+    #navi ul{
+      
+         margin: 0px;
+        padding: 0px;
+            
+    }
+    #navi ul li {
+            padding-top:4px;
+          
+         padding-left:5px;
+            padding-right: 5px;
+    }
+    #navi ul li a{
+            margin: 0px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+           
+          
+            font-size: 10px;
+}
+    #booking,#hotels{
+        width:86%;
+        float: left;
+        margin-left:7%;
+    }
+    .tagname{
+        width:105%;
+    }
+    #parallax{
+        background:left;
+    }
+    #parallax1 input{
+        width:305px;
+        padding-right: 5px;
+    }
+
+
+}
+
+@media screen and (max-width:375px) {
+     .tagname{
+        width:106%;
+    }
+      #parallax1 input{
+        width:255px;
+        padding-right: 5px;
+    }
+}
+
+
+
+@media screen and (max-width:412px) {
+    #parallax1 input{
+        width:335px;
+        padding-right: 5px;
+    }
+}

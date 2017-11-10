@@ -1,0 +1,197 @@
+ *{
+        font-family: "Myriad Pro";
+    }
+    @font-face{
+    font-family:"Fjord";
+    src:url("css/fonts/fjord.otf");
+}
+    @font-face{
+    font-family:"Hammersmith One";
+    src:url("css/fonts/hammersmith-one.ttf");
+}
+    .navigation{
+        background: linear-gradient(#87CEFA,#F0F8FF);
+        height: 50px;
+        padding: 10px;
+        text-align: center;
+        font-family: "Hammersmith One";
+        font-size: 30px;
+        color: #282928;
+    }
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;margin:0}
+.mySlides {display:none}
+
+/* Slideshow container */
+    .menu-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+    margin-top:50px;
+        margin-bottom: 0px;
+}
+    .start-menu{
+        color: #292929;
+        text-align: center;
+          background-color: #c5cbda;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 400px;
+    }
+    .start-menu h1{
+           font-family: "Hammersmith One";
+        font-size: 50px;
+    }
+    .start-menu p{
+           font-family: "Fjord";
+        font-size: 20px;
+     
+    }
+    
+    .start-menu input[type="text"]{
+    text-align:center;
+    width:300px;
+    background-color:transparent;
+    border:0px;
+    border-bottom:1px solid black;
+    font-size: 20px;
+    outline-color: transparent;
+    
+}
+    input[type="submit"]{
+        width: 300px;
+        height: 40px;
+        background-color: darkseagreen;
+        border:2px solid antiquewhite;
+        font-size: 15px;
+    }
+
+    .btn-primary{
+        margin-top: 30px;
+         width: 300px;
+        height: 40px;
+        background-color: darkseagreen;
+        border:2px solid antiquewhite;
+        font-size: 15px;
+    }
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+    margin-top:-40px;
+    display: none;
+}
+
+/* The dots/bullets/indicators */
+    .questions{
+    background-color: #c5cbda;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 400px;
+    }
+    .questions p{
+    padding:5px;
+        font-size: 20px;
+}
+    .questions h5{
+        font-size:15px;
+    }
+    .questions h3{
+        font-size:25px;
+        text-indent: 10px;
+    }
+.questions p input[type="radio"]{
+    width: 20px;
+    height: 20px;
+}
+    .item_container{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin: 10px auto 20px auto;
+    justify-content: center;
+}
+.item_no{
+    box-sizing: border-box;
+    background-color: lightblue;
+    width: 40px;
+    height: 40px;
+    border:1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+   
+    cursor: pointer;
+    
+}
+.active, .dot:hover {
+  background-color: dodgerblue;
+}
+    .sec{
+        background-color: #717171;
+        height: 400px;
+    }
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+   .score-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+    margin-top:10px;
+        margin-bottom: 0px;
+       display: none;
+}  
+    .score-content{
+         color: #292929;
+        text-align: center;
+          background-color: #c5cbda;
+    padding: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 400px;
+    
+    }
+    
+    .score-content p{
+          font-family: "Jford";
+        font-size: 30px;
+    }
+    .score-content h1{
+           font-family: "Hammersmith One";
+         font-size: 50px;
+        letter-spacing: 10px;
+   
+    }
+
+.view_dashboard{
+    background-color: darkseagreen;
+    width: 200px;
+    height: 50px;
+         border:2px solid antiquewhite;
+}

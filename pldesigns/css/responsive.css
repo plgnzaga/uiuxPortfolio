@@ -1,0 +1,14 @@
+/* Responsive Media Queries */
+
+
+@media screen and  (max-width:414px){
+    
+    #main_jumbo{
+        
+        width:100%;
+        
+    }
+    #index{
+       font-size: 2px;
+    }
+}

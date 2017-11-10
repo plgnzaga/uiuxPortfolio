@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+    font-family: SEGOE UI;
+    outline-color: black;
+  
+}
+body{
+    background-color: whitesmoke;
+}
+a{
+      color: black;
+}
+p{
+    text-align: justify;
+    padding: 2%;
+}
+.border_box{
+    border:5px solid black;
+    color: black;
+    padding-left:10px;
+    padding-right:1px;
+    
+}
+img{
+    opacity: 0.8;
+}
+img:hover{
+    opacity: 1;
+}
+hr{
+   border: 4px solid black;
+}
+        .col-md-3{
+        
+        margin: 0;
+        padding: 3px;
+        
+        }
+        .col-md-4{
+        
+        margin: 0;
+        padding: 3px;
+        
+        }
+            .col-md-6{
+        
+        margin: 0;
+        padding: 3px;
+        
+        }
+
+.headings1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.headings2{
+    text-align: center;
+   
+}
+
+/* navbars */
+          .navbar-nav ul li{
+                    height: 90px;
+                    padding: 5px;
+                }
+                .navbar-left{
+                    margin-left: -70px;
+                }
+
+.navbar ul li a{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.navbar-nav li:hover{
+  
+    background-color: darkslategray;
+}
+
+
+/* end navbars */
+
+/* archi*/
+#architects{
+        margin-top: 80px;
+        margin-bottom: 50px;
+}
+.archis{
+    width:100%;
+    max-height:300px;
+    min-height:300px;
+ 
+}
+  .four_pics{
+        border: 1px solid black;
+        margin-left: 20px;
+ }
+.contact_btn{
+        width: 100%;
+        color: white;
+        background-color: darkslategray;
+        padding: 10px;
+    }
+  .contact_btn:hover{
+        width: 100%;
+        background-color: darkgrey;
+        padding: 10px;
+    }
+/* end archi */
+
+
+
+/* start jumbotron */
+
+.banner{
+    background: url(images/banner.jpg) no-repeat center;
+    background: cover;
+    height: 680px;
+    max-height: 680px;
+   
+    
+}
+
+.banner_font{
+    
+    letter-spacing: 20px;
+    font-family: sans-serif;
+    text-align: center;
+     position: relative;
+    top:220px;
+}
+/* end jumbotron */
+
+#container1{
+    max-width: 1065px;
+    height:auto;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+}
+#container2{
+    max-width: 1065px;
+    height:auto;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+}
+
+.two_cols {
+       width: 48.4%;
+        height: 400px;
+       float: left;
+        margin-top:0;
+        margin-bottom: 0;
+        margin-right: 7px;
+    }
+    
+.two_cols img{
+    height:70%;
+    width:100%;
+}
+
+/* new */
+.one_cols{
+       width: 48.4%;
+        height: 400px;
+       float: left;
+        margin-top:0;
+        margin-bottom: 20px;
+        margin-right: 7px;
+    }
+.one_cols_big{
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    max-height: 400px;
+}
+.four_by_four{
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+    max-height: 200px;
+}
+.three_by_three{
+    width: 100%;
+    height: 100%;
+    min-height: 250px;
+    max-height: 250px;
+    margin-bottom: 50px;
+}
+
+.four_cols{
+    width: 25%;
+    height: 50%;
+    float: left;    
+}
+
+/* */
+/* footerss */
+.last_section{
+    width: 100%;
+    height: 700px;
+    background-color: whitesmoke;
+}
+.footer_sec {
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+.footer_sec p{
+    
+    width: 63%;
+    text-align: justify;
+    line-height: 30px;
+    text-transform: none;
+}
+.footer_sec input{
+    font-size: 18px;
+    color: darkslategray;
+    text-align: left;
+    height: 40px;
+    width: 60%;
+    margin-bottom: 10px;
+    
+}
+.footer_sec textarea{
+    resize: none;
+    font-size: 18px;
+    color: darkslategray;
+    width: 60%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.footer_sec button{
+    text-align: center;
+    color: white;
+    background-color: darkslategray;
+    outline-color: darkslategray;
+    height: 40px;
+    width: 60%;
+    margin-bottom: 10px;
+}
+.footer_sec .headings1{
+    margin-top:50px;
+}
+
+.final-footer{
+    background-color: #313131;
+}
+/* parallax */
+
+.parallax{
+ /*   background: url("images/4.jpg") repeat fixed 100%; */
+    background-color: black;
+    text-align:center;
+    color: white;
+}
+.parallax-inner{
+    padding-top: 45px;
+    padding-bottom: 280px;
+    position: relative;
+}
+.clearfix{
+    clear: both;
+}
+
+/* end */
+
+
+/* trial and error */
+
+.parallax-inner:after{
+        content: "";
+        position: absolute;
+        top:100%;
+        left: 48.3%;
+        background-color: black;
+        width: 80px;
+        height:40px;
+        clip-path:polygon(0 0,100% 0,50%100%);
+        
+    }

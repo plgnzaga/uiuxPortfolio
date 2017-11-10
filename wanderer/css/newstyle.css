@@ -1,0 +1,349 @@
+/* global */
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+   
+    
+}
+
+h1,h2,h3{
+    font-family: "Neou";
+}
+
+@font-face{
+    font-family:"Alegre Sans";
+    src:url(AlegreSans-Regular.ttf);
+}
+
+@font-face{
+    font-family:"Neou";
+    src:url(Neou-Thin.otf);
+}
+
+
+@font-face {
+    font-family: "Kenzo"; 
+    src: url(Kenzo.otf);
+}
+/* local */
+
+#navi{
+    width: 100%;
+    background-color: transparent;
+     border: 0px;
+    border-bottom: darkslategray 1px solid;
+    margin: 0px;
+    padding: 0px;
+    min-height: 50px;
+    position: absolute;
+    z-index: 10;
+    
+    
+}
+#navi ul{
+    float: right;
+    
+}
+#navi ul li{
+    display: inline-block;
+    padding-top:   15px;
+    list-style: none;
+}
+#navi ul li a:hover{
+    background-color: #c1c1c1;
+    color: #292929;
+
+}
+#navi ul li a{
+  text-decoration: none;
+    color: antiquewhite ;
+    padding: 15px;
+    
+}
+.banner{
+    color: antiquewhite;
+    background-image: url(images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    height:670px;
+    width: 100%;
+    font-family: "KENZO";
+    text-align: center;
+    border-bottom: 5px solid #f44336;
+}
+#banner_tag{
+    font-size:120px;position:relative;top:200px;
+}
+#banner_tag_support{
+    font-family:SEGOE UI;font-size:18px;position:relative;top:180px;
+}
+.first_div{
+    background-color: #292929;
+    color: antiquewhite;
+    padding-top: 70px;
+    margin-bottom: 0px;
+     border-bottom: 5px solid #f44336;
+}
+#about{
+    text-align:justify;line-height:3;
+}
+#explore{
+    text-align:justify;line-height:3;margin-bottom:20px;
+}
+.circ{
+    background-color: antiquewhite;
+    color: #293929;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    border: 5px solid #292929;
+    border-radius: 150px 150px;
+    height: 120px;
+    width: 120px;
+    padding-top: 16px;
+    text-align: center; 
+}
+
+#compass,#globe{
+    font-size:80px;;
+}
+
+
+.container h3{
+       text-align: center;
+}
+#parallax1{
+    height: 900px;
+    background: url(images/pisa.jpg)fixed center;
+    background-size: cover;
+    width: 100%;
+    
+}
+#parallax1 .parallax_content{
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.sub-img{
+    margin-bottom: 30px;
+}
+#sub-img1{
+    padding-left:0px; margin-bottom:15px;height:250px; width:100%;
+}
+#sub-img2{
+    padding-right:0px; margin-bottom:15px;height:250px; width:100%;
+}
+#booking{
+    float:right;
+    width:450px;
+    padding-left:0px;
+    background-color:white;
+}
+#hotels{
+    margin-top: 20px;
+    float:right;
+    width:450px;
+    padding-left:0px;
+    background-color:white;
+}
+.tagname{
+    background-color:#f44336;
+    padding:5px;
+    color:antiquewhite;
+    width:450px;
+}
+footer{
+     border-top: 5px solid #f44336;
+    background-color: #292929;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    height: 170px;
+    color: antiquewhite;
+    text-align: center;
+  
+}
+input[type="text"],input[type="number"]{
+    height: 40px;
+    width:430px;
+    border: 1px solid #292929;
+    padding: 5px;
+    font-size: 15px;
+}
+input[type="email"]{
+    height: 40px;
+    width:100%;
+    border: 1px solid #292929;
+    padding: 5px;
+    font-size: 15px;
+    color: #292929;
+}
+
+input[type="button"],button{
+    margin-top: 10px;
+    width:200px;
+    height: 40px;
+    background-color: gray;
+    color: antiquewhite;
+}
+.offers{
+    background-color: black;
+    text-align: left;
+    color: antiquewhite;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.offers:hover{
+    background-color:#292929;
+}
+.contact{
+    background-color:#f44336;
+    text-align: left;
+    color: antiquewhite;
+    padding-top: 30px;
+    height: 500px;
+}
+
+.contact input{
+     height: 50px;
+    width:100%;
+    border: 1px solid #292929;
+    padding: 10px;
+    font-size: 15px;
+    color: #292929;
+}
+textarea{
+    height: 100px;
+    width:100%;
+    border: 1px solid #292929;
+    padding: 10px;
+    font-size: 15px;
+    color: #292929;
+    resize: none;
+}
+footer:hover{
+      background-color: black;
+}
+
+.row img:hover{
+    opacity: 1;
+    -webkit-animation:flash 1.5s;
+    animation: flash 1.5s;
+    content: "";
+}
+@-webkit-keyframes flash{
+    0%{
+        opacity: .4;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.pricing{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.pricing section{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.pricing section:nth-child(even){
+    height: auto;
+    width: 300px;
+    border:1px solid ghostwhite; 
+}
+.pricing section:first-child,.pricing section:last-child{
+   height: auto;
+   width:300px;
+   border:1px solid ghostwhite; 
+}
+.pricing section div{
+    position: relative;
+}
+.pricing section div span{
+    position: absolute;
+    top:40%;
+    left: 20%;
+    font-family: "Keep Calm Med";
+    font-size: 30px;
+}
+.pricing section table{
+    color: black;
+    line-height: 2.99;
+    margin-top: 20px;
+    border: none;
+    font-weight: bold;
+    font-family: "Keep Calm Med";
+}   
+.pricing section table td{
+    padding: 5px 20px;
+}
+.pricing section table td:nth-child(even){
+    text-align: right;
+}
+.pricing section button{
+    width: 100%;
+    color: white;
+    background-color: #f44336;
+}
+/* trials */
+.margin_btm0{
+   margin-bottom: 15px;
+}
+.margin_top0{
+   margin-top:15px;
+}
+
+h1.hotel-offers{
+    margin-bottom: 30px;
+}
+@media screen and (min-width:600px) {
+
+    .pricing{
+flex-wrap: wrap;
+}
+.pricing section{
+flex-basis:45%;
+
+}
+
+.pricing section:nth-child(1){
+    order: 1;
+}
+
+.pricing section:nth-child(2){
+    order:3;
+}
+
+.pricing section:nth-child(3){
+    order: 2;
+}
+
+}
+
+
+@media screen and (min-width:1024px) {
+
+
+.pricing section{
+flex-basis:30%;
+
+}
+
+.pricing section:nth-child(1){
+    order: 1;
+}
+
+.pricing section:nth-child(2){
+    order:2;
+}
+
+.pricing section:nth-child(3){
+    order: 3;
+}
+
+}

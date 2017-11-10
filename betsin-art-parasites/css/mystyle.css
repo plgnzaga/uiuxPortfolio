@@ -1,0 +1,337 @@
+body{
+    
+    background-color: #191919;
+    
+}
+
+@font-face{
+    font-family:"Harabara Mais Demo";
+    src:url("Harabara.otf");
+}
+
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 1000px;
+}
+
+.banner img{
+    width: 100%;
+    height: 500px;
+}
+#logo{
+    background-image: url(images/betsin-art-parasites-logo.png);
+    background-size: cover;
+    width:45px;
+    height:45px;
+    
+}
+.banner{
+    position: absolute;
+    top:100px;
+    left:250px;
+}
+.banner h1{
+    color: wheat;
+    font-family: "Harabara Mais Demo";
+    font-size: 80px;
+    
+}
+.banner .tagline{
+    font-family: "Calibri";
+    font-size: 25px;
+}
+.sign_in_home{
+    background-color: #f0db44;
+    border:1px solid #292929;
+    padding:10px;
+    width:20rem;
+    font-size: 18px;
+}
+.mainnav{
+    background-color:yellow;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 2px;
+    font-family: "Market Deco";
+  
+}
+.mainnav h2{
+        margin-top: 0px;
+}
+/* flex */
+   section{
+        border:0px solid black; 
+        cursor: pointer;
+    }
+    .gallery{
+         width:900px;
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .gallery section{
+       
+        background-size: contain;
+        width: 300px;
+         height: 300px;
+    }
+
+.photo-grid1{
+     background: url(images/111.jpg)center;
+    background-size: cover;
+}
+.photo-grid2{
+     background: url(images/222.jpg)center;
+    background-size: cover;
+}
+.photo-grid3{
+     background: url(images/333.jpg)center;
+    background-size: cover;
+}
+.photo-grid4{
+     background: url(images/444.jpg)center;
+    background-size: cover;
+}
+.photo-grid5{
+     background: url(images/555.jpg)center;
+    background-size: cover;
+}
+.photo-grid6{
+     background: url(images/666.jpg)center;
+    background-size: cover;
+}
+.photo-grid7{
+     background: url(images/777.jpg)center;
+    background-size: cover;
+}
+.photo-grid8{
+     background: url(images/888.jpg)center;
+    background-size: cover;
+}
+.photo-grid9{
+     background: url(images/999.jpg)center;
+    background-size: cover;
+}
+.photo-grid10{
+     background: url(images/101010.jpg)center;
+    background-size: cover;
+}
+.photo-grid11{
+     background: url(images/111111.jpg)center;
+    background-size: cover;
+}
+.photo-grid12{
+     background: url(images/121212.jpg)center;
+    background-size: cover;
+}
+.photo-grid13{
+     background: url(images/131313.jpg)center;
+    background-size: cover;
+}
+.photo-grid14{
+     background: url(images/141414.jpg)center;
+    background-size: cover;
+}
+.photo-grid15{
+     background: url(images/151515.jpg)center;
+    background-size: cover;
+}
+.photo-grid16{
+     background: url(images/161616.jpg)center;
+    background-size: cover;
+}
+.photo-grid17{
+     background: url(images/171717.jpg)center;
+    background-size: cover;
+}
+.photo-grid18{
+     background: url(images/181818.jpg)center;
+    background-size: cover;
+}
+.photo-grid19{
+     background: url(images/191919.jpg)center;
+    background-size: cover;
+}
+.photo-grid20{
+     background: url(images/202020.jpg)center;
+    background-size: cover;
+}
+.photo-grid21{
+     background: url(images/212121.jpg)center;
+    background-size: cover;
+}
+.photo-grid22{
+     background: url(images/222222.jpg)center;
+    background-size: cover;
+}
+.photo-grid23{
+     background: url(images/232323.jpg)center;
+    background-size: cover;
+}
+.photo-grid24{
+     background: url(images/242424.jpg)center;
+    background-size: cover;
+}
+.photo-grid25{
+     background: url(images/252525.jpg)center;
+    background-size: cover;
+}
+.photo-grid26{
+     background: url(images/262626.jpg)center;
+    background-size: cover;
+}
+.photo-grid27{
+     background: url(images/272727.jpg)center;
+    background-size: cover;
+}
+.photo-grid28{
+     background: url(images/282828.jpg)center;
+    background-size: cover;
+}
+.photo-grid29{
+     background: url(images/292929.jpg)center;
+    background-size: cover;
+}
+.photo-grid30{
+     background: url(images/303030.jpg)center;
+    background-size: cover;
+}
+
+.photo-grid31{
+     background: url(images/313131.jpg)center;
+    background-size: cover;
+}
+.photo-grid32{
+     background: url(images/323232.jpg)center;
+    background-size: cover;
+}
+.photo-grid33{
+     background: url(images/333333.jpg)center;
+    background-size: cover;
+}
+.photo-grid34{
+     background: url(images/343434.jpg)center;
+    background-size: cover;
+}
+.photo-grid35{
+     background: url(images/353535.jpg)center;
+    background-size: cover;
+}
+.photo-grid36{
+     background: url(images/363636.jpg)center;
+    background-size: cover;
+}
+.photo-grid37{
+     background: url(images/373737.jpg)center;
+    background-size: cover;
+}
+.photo-grid38{
+     background: url(images/383838.jpg)center;
+    background-size: cover;
+}
+.photo-grid39{
+     background: url(images/393939.jpg)center;
+    background-size: cover;
+}
+.photo-grid40{
+     background: url(images/404040.jpg)center;
+    background-size: cover;
+}
+.photo-grid41{
+     background: url(images/414141.jpg)center;
+    background-size: cover;
+}
+.photo-grid42{
+     background: url(images/424242.jpg)center;
+    background-size: cover;
+}
+.photo-grid43{
+     background: url(images/434343.jpg)center;
+    background-size: cover;
+}
+      
+    .full-view{
+        color: antiquewhite;
+        background-color: #292929;
+        height: 600px;
+        width:1000px;
+        border:2px solid black;
+        margin:auto;
+        padding:10px;
+        z-index: 20;
+        display: none;
+        position: fixed;
+        top:20px;
+    }
+    .full-image{
+        width:500px;
+        height:500px;
+        background-color: antiquewhite;
+        margin: 40px;
+      
+    }
+.full-content{
+    border:1px solid gray;
+    padding: 10px;
+       margin-top: 40px;
+    margin-right:0px;
+    max-width: 500px;
+  
+}
+.full-content p{
+ white-space: pre;
+        
+    
+}
+  
+    /* trial and error purposes only */
+   
+.faker{
+     position:fixed;
+    background-color: gray;
+    border:1px solid black;
+    width:100%;
+    height: 100%;
+    top:0px;
+    opacity: 0.5;
+   display:none;
+    z-index: 5;
+}
+
+/* slider */
+
+     #slider{
+    max-width:1400px;
+    height: 650px;
+   overflow: hidden;
+    cursor: pointer;
+}
+
+#slider .slides{
+    display: block;
+    width: 6000px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+#slider .slide{
+    float: left;
+    list-style-type: none;
+   width:1400px;
+    height: 650px;
+    
+}
+#slider img{
+    width:100%;
+}
+   
+/* end slider */
